@@ -1,5 +1,5 @@
 {
-  "name": "v-linkify",
+  "name": "vue-linkifier",
   "version": "1.0.12",
   "description": "A simple Vue directive to turn URL's and emails into clickable links",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maorbarel/v-linkify.git"
+    "url": "https://github.com/maorbarel/v-linkify.git"
   },
   "keywords": [
     "vue",
