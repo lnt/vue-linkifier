@@ -4,7 +4,7 @@ export function findMatchedText(text = "") {
   return [
     ...text.matchAll(REGEX_PATTERN.EMAIL_ADDRESS),
     ...text.matchAll(REGEX_PATTERN.URL),
-    ...text.matchAll(REGEX_PATTERN.PSEUDO_URL),
+    //...text.matchAll(REGEX_PATTERN.PSEUDO_URL),
   ].flat();
 }
 

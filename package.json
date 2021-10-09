@@ -1,6 +1,6 @@
 {
   "name": "vue-linkifier",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "description": "A simple Vue directive to turn URL's and emails into clickable links",
   "main": "src/index.js",
   "scripts": {
