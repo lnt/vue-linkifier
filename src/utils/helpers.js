@@ -10,8 +10,8 @@ export function findMatchedText(text = "") {
 
 export function createElementAttributesOptions(params) {
   if (_isObject(params)) {
-    const elClass = _createDOMClass(params?.className);
-    const elLinkTarget = _createLinkTarget(params?.target);
+    const elClass = _createDOMClass(params ? params.className : null);
+    const elLinkTarget = _createLinkTarget(params ? params.target : null);
     return `${elClass} ${elLinkTarget}`;
   }
   return _createLinkTarget();
